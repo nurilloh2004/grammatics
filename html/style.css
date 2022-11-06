@@ -52,6 +52,36 @@ header nav .icon-links a i:hover{
 }
 /* header end */
 
+/* link section start */
+
+.link{
+    width: 100%;
+    height: 50px;
+    background-color: #1e1e1e;
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.link .links{
+    display: flex;
+    gap: 3.125rem;
+}
+
+.link .links a{
+    text-decoration: none;
+    color: #fff;
+    transition: .2s linear;
+}
+
+.link .links a:hover{
+    color: #008000;
+}
+
+
+/* link section end */
+
 /* main section start */
 
 .main{
@@ -68,7 +98,8 @@ header nav .icon-links a i:hover{
 .main .box{
     width: 80%;
     height: 280px;
-    background-color: black;
+    background-image: url(https://images.wallpaperscraft.com/image/single/goose_bird_beak_414511_3840x2160.jpg);
+    background-size: cover;
     border-radius: 10px;
 }
 
