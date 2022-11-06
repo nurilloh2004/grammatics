@@ -59,13 +59,19 @@ header nav .icon-links a i:hover{
     height: 300px;
     border: 2px solid red;
     margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
 }
 
 .main .box{
     width: 80%;
     height: 280px;
     background-color: black;
+    border-radius: 10px;
 }
+
 
 /* main section end */
 
