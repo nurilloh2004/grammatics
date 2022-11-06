@@ -7,7 +7,7 @@
 body{
     background-color: #1e1e1e;
 }
-
+/* header start */
 header{
     background-color: #1a1a1a;
 }
@@ -15,11 +15,59 @@ header{
 header nav{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 20px 120px;
 }
 
+header nav .logo h1{
+    color: #fff;
+    font-size: 28px;
+}
+
+header nav .icon-links a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    transition: .4s linear;
+}
+
+header nav .icon-links a i{
+    font-size: 18px;
+    border: 2px solid #ddd;
+    padding: 10px;
+    border-radius: 50%;
+    transition: .4s linear;
+    transform: rotate(80deg);
+}
 
 
+header nav .icon-links a:hover{
+    color: #008000;
+}
+
+header nav .icon-links a i:hover{
+    border: 2px solid #008000;
+    transform: rotate(0);
+}
+/* header end */
+
+/* main section start */
+
+.main{
+    width: 95%;
+    height: 300px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+
+.main .box{
+    width: 80%;
+    height: 280px;
+    background-color: black;
+}
+
+/* main section end */
 
 
 
