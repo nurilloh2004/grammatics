@@ -5,18 +5,42 @@
 {% block content %}
 
 
-    <!-- main section start -->
 
-    <section class="main" id="main">
 
-        <div class="box">
-          
-        </div>
-  
-      </section>
-  
-  
-      <!-- main section end -->
+
+<!-- link section end -->
+
+
+<!-- main section start -->
+{% for c in card %}
+<section class="main" id="main">
+
+  <div class="text-content" style="width: 1010px;">
+    <p>{{ c.description }}</p>
+  </div>
+
+  <div class="box" style="padding: 10px;">
+    <img src="{{ c.image.url }}" alt="">
+  </div>
+  <div class="bottom-content">
+
+    <div class="text-content" style="width: 1010px;">
+      <p>{{ c.description}}</p>
+    </div>
+
+    <div class="link-bottom">
+        <a href=""><i class="fa-solid fa-play"></i></a>
+        <a href=""><i class="fa-solid fa-download"></i></a>
+    </div>
+
+  </div>
+  </section>
+  <br><br>
+  <br><br>
+  {% endfor %}
+
+
+
 
 {% endblock content %}
 
